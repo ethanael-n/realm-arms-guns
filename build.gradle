@@ -1,0 +1,57 @@
+plugins {
+    id "net.fabricmc.fabric-loom" version "${loom_version}"
+    id "maven-publish"
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+repositories {
+    // Ranged Weapon API is published to Modrinth's maven
+    maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+        content {
+            includeGroup "maven.modrinth"
+        }
+    }
+}
+
+dependencies {
+    // To change the versions see the gradle.properties file
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+
+    // Fabric API. Technically optional, but we use it for the creative-tab hook.
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+    // Ranged Weapon API - required at runtime.
+    // `include` bundles it inside our jar (Jar-in-Jar) so players only need to install
+    // this mod. If you'd rather users install Ranged Weapon API separately (e.g. because
+    // you already distribute it that way in your modpack), just delete the `include` line.
+    implementation "maven.modrinth:ranged-weapon-api:${project.ranged_weapon_api_version}"
+    include "maven.modrinth:ranged-weapon-api:${project.ranged_weapon_api_version}"
+
+}
+
+processResources {
+    def version = project.version
+    inputs.property "version", version
+    filesMatching("fabric.mod.json") {
+        expand "version": version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 25
+}
+
+java {
+    withSourcesJar()
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+}
