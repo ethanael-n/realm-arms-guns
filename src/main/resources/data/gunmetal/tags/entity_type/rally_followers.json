@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:vindicator",
+    "minecraft:ravager",
+    { "id": "illagerinvasion:basher", "required": false },
+    { "id": "illagerinvasion:inquisitor", "required": false }
+  ]
+}

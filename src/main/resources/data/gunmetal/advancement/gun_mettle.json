@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "id": "gunmetal:steel_carbine"
+    },
+    "title": {
+      "translate": "advancements.gunmetal.gun_mettle.title"
+    },
+    "description": {
+      "translate": "advancements.gunmetal.gun_mettle.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_steel_gun": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gunmetal:steel_pistol",
+              "gunmetal:steel_carbine",
+              "gunmetal:steel_musketoon",
+              "gunmetal:steel_arquebus",
+              "gunmetal:steel_blunderbuss",
+              "gunmetal:steel_volleygun",
+              "gunmetal:steel_rifle"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

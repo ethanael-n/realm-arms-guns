@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " #~",
+    "# ~",
+    " #~"
+  ],
+  "key": {
+    "#": "minecraft:diamond",
+    "~": "minecraft:string"
+  },
+  "result": {
+    "id": "gunmetal:diamond_bow",
+    "count": 1
+  }
+}

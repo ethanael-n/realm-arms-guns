@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "id": "gunmetal:copper_pistol"
+    },
+    "title": {
+      "translate": "advancements.gunmetal.intruder_alert.title"
+    },
+    "description": {
+      "translate": "advancements.gunmetal.intruder_alert.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

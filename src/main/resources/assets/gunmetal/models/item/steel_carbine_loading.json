@@ -1,0 +1,7 @@
+{
+  "parent": "gunmetal:item/gun/carbine_loading",
+  "textures": {
+    "0": "gunmetal:item/steel_carbine",
+    "particle": "gunmetal:item/steel_carbine"
+  }
+}

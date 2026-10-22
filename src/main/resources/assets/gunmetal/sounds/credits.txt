@@ -1,0 +1,5 @@
+Sounds carried over from Musket Mod Reloaded (all CC0):
+gun/load0.ogg          uses https://freesound.org/people/ninjaotter/sounds/423288/
+dispenser_fire.ogg     based on https://freesound.org/people/unfa/sounds/609588/
+bullet/fly_by1-3.ogg   based on https://freesound.org/people/haydensayshi123/sounds/138680/
+bullet/water_hit1-2.ogg based on https://freesound.org/people/craigsmith/sounds/675947/

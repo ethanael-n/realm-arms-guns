@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "#gunmetal:ice_cartridge_materials",
+    "#gunmetal:ice_cartridge_materials",
+    "#gunmetal:ice_cartridge_materials",
+    "minecraft:gunpowder",
+    "minecraft:paper"
+  ],
+  "result": {
+    "id": "gunmetal:ice_cartridge",
+    "count": 2
+  }
+}

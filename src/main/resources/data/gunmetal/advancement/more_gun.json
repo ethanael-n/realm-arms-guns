@@ -1,0 +1,155 @@
+{
+  "parent": "gunmetal:gun_mettle",
+  "display": {
+    "icon": {
+      "id": "gunmetal:copper_arquebus"
+    },
+    "title": {
+      "translate": "advancements.gunmetal.more_gun.title"
+    },
+    "description": {
+      "translate": "advancements.gunmetal.more_gun.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pistol": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gunmetal:copper_pistol",
+              "gunmetal:brass_pistol",
+              "gunmetal:steel_pistol"
+            ]
+          }
+        ]
+      }
+    },
+    "carbine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gunmetal:copper_carbine",
+              "gunmetal:brass_carbine",
+              "gunmetal:steel_carbine"
+            ]
+          }
+        ]
+      }
+    },
+    "musketoon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gunmetal:copper_musketoon",
+              "gunmetal:brass_musketoon",
+              "gunmetal:steel_musketoon"
+            ]
+          }
+        ]
+      }
+    },
+    "arquebus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gunmetal:copper_arquebus",
+              "gunmetal:brass_arquebus",
+              "gunmetal:steel_arquebus"
+            ]
+          }
+        ]
+      }
+    },
+    "blunderbuss": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gunmetal:copper_blunderbuss",
+              "gunmetal:brass_blunderbuss",
+              "gunmetal:steel_blunderbuss"
+            ]
+          }
+        ]
+      }
+    },
+    "volleygun": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gunmetal:copper_volleygun",
+              "gunmetal:brass_volleygun",
+              "gunmetal:steel_volleygun"
+            ]
+          }
+        ]
+      }
+    },
+    "rifle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gunmetal:brass_rifle",
+              "gunmetal:steel_rifle"
+            ]
+          }
+        ]
+      }
+    },
+    "hand_cannon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gunmetal:hand_cannon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pistol"
+    ],
+    [
+      "carbine"
+    ],
+    [
+      "musketoon"
+    ],
+    [
+      "arquebus"
+    ],
+    [
+      "blunderbuss"
+    ],
+    [
+      "volleygun"
+    ],
+    [
+      "rifle"
+    ],
+    [
+      "hand_cannon"
+    ]
+  ]
+}

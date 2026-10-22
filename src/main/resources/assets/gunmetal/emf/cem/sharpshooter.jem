@@ -1,0 +1,405 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "root",
+			"id": "root",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"attach": true,
+			"model": "sharpshooter_animations.jpm"
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"texture": "gunmetal:textures/entity/illager/sharpshooter.png",
+			"textureSize": [64, 64],
+			"submodels": [
+				{
+					"id": "Created_by_FreshLX_for_Fresh_Animations",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0]
+				}
+			]
+		},
+		{
+			"part": "nose",
+			"id": "nose",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"texture": "gunmetal:textures/entity/illager/sharpshooter.png",
+			"textureSize": [64, 64],
+			"boxes": [
+				{"coordinates": [-4, 24, -4, 8, 10, 8], "textureOffset": [0, 0]},
+				{
+					"coordinates": [-4.5, 24.5, -4.5, 9, 7, 9],
+					"uvNorth": [55, 15, 64, 22],
+					"uvEast": [46, 4, 55, 11],
+					"uvSouth": [55, 4, 64, 11],
+					"uvWest": [55, 4, 46, 11],
+					"uvUp": [46, 9, 37, 0],
+					"uvDown": [55, 11, 46, 20]
+				}
+			],
+			"submodels": [
+				{
+					"id": "sculkcrown",
+					"invertAxis": "xy",
+					"translate": [0, 33, -1.75],
+					"rotate": [15, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-4.5, -3.5, -2.75, 9, 4, 5],
+							"uvNorth": [55, 11, 64, 15],
+							"uvEast": [50, 0, 55, 4],
+							"uvSouth": [55, 0, 64, 4],
+							"uvWest": [55, 0, 50, 4],
+							"uvUp": [46, 9, 37, 4],
+							"uvDown": [55, 15, 46, 20]
+						},
+						{
+							"coordinates": [-4.5, 0.5, -2.75, 9, 3, 2],
+							"uvNorth": [37, 14, 46, 17],
+							"uvEast": [35, 3, 37, 6],
+							"uvSouth": [37, 9, 46, 12],
+							"uvWest": [35, 0, 37, 3],
+							"uvUp": [46, 19, 37, 17],
+							"uvDown": [46, 12, 37, 14]
+						}
+					],
+					"submodels": [
+						{
+							"id": "earpiece",
+							"invertAxis": "xy",
+							"translate": [-4.5, -3, 1.75],
+							"rotate": [-15, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-0.5, -2, -2, 1, 4, 4],
+									"uvNorth": [32, 0, 33, 4],
+									"uvEast": [33, 6, 37, 10],
+									"uvSouth": [32, 4, 33, 8],
+									"uvWest": [33, 6, 37, 10],
+									"uvUp": [35, 6, 34, 2],
+									"uvDown": [34, 2, 33, 6]
+								}
+							]
+						},
+						{
+							"id": "earpiecer",
+							"invertAxis": "xy",
+							"translate": [4.5, -3, 1.87319],
+							"rotate": [-15, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-0.5, -1.68555, -1.91574, 1, 4, 4],
+									"uvNorth": [33, 0, 32, 4],
+									"uvEast": [37, 6, 33, 10],
+									"uvSouth": [33, 4, 32, 8],
+									"uvWest": [37, 6, 33, 10],
+									"uvUp": [34, 6, 35, 2],
+									"uvDown": [33, 2, 34, 6]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "face",
+					"invertAxis": "xy",
+					"translate": [0, 28, -4],
+					"submodels": [
+						{
+							"id": "r_eye_white",
+							"invertAxis": "xy",
+							"translate": [1, -1, 0],
+							"boxes": [
+								{
+									"coordinates": [0, 0, -0.002, 2, 1, 0],
+									"uvNorth": [14, 22, 16, 23]
+								}
+							]
+						},
+						{
+							"id": "r_pupil",
+							"invertAxis": "xy",
+							"translate": [1, -1, 0],
+							"boxes": [
+								{
+									"coordinates": [0, 0, 0, 1, 1, 0],
+									"uvNorth": [15, 21, 16, 22],
+									"sizeAdd": 0.005
+								}
+							]
+						},
+						{
+							"id": "l_eye_white",
+							"invertAxis": "xy",
+							"translate": [-1, -1, 0],
+							"boxes": [
+								{
+									"coordinates": [-2, 0, -0.002, 2, 1, 0],
+									"uvNorth": [18, 22, 20, 23]
+								}
+							]
+						},
+						{
+							"id": "l_pupil",
+							"invertAxis": "xy",
+							"translate": [-1, -1, 0],
+							"boxes": [
+								{
+									"coordinates": [-1, 0, 0, 1, 1, 0],
+									"uvNorth": [18, 21, 19, 22],
+									"sizeAdd": 0.005
+								}
+							]
+						},
+						{
+							"id": "left_brow",
+							"invertAxis": "xy",
+							"translate": [-2, 0.5, 0],
+							"boxes": [
+								{
+									"coordinates": [-2, -0.5, -0.006, 3, 1, 0],
+									"uvNorth": [18, 20, 21, 21]
+								},
+								{
+									"coordinates": [-2, 0.5, -0.006, 2, 1, 0],
+									"uvNorth": [19, 19, 21, 20]
+								}
+							]
+						},
+						{
+							"id": "right_brow",
+							"invertAxis": "xy",
+							"translate": [2, 0.5, 0],
+							"boxes": [
+								{
+									"coordinates": [-1, -0.5, -0.006, 3, 1, 0],
+									"uvNorth": [13, 20, 16, 21]
+								},
+								{
+									"coordinates": [0, 0.5, -0.006, 2, 1, 0],
+									"uvNorth": [13, 19, 15, 20]
+								}
+							]
+						},
+						{
+							"id": "mouth",
+							"invertAxis": "xy",
+							"translate": [0, -2, 0],
+							"boxes": [
+								{
+									"coordinates": [-2, -2, -0.002, 4, 2, 0],
+									"uvNorth": [15, 23, 19, 25]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "nose2",
+					"invertAxis": "xy",
+					"translate": [0, 26.5, -4],
+					"boxes": [
+						{"coordinates": [-1, -3.5, -2, 2, 4, 2], "textureOffset": [24, 0]}
+					]
+				},
+				{
+					"id": "skulkfins",
+					"invertAxis": "xy",
+					"translate": [0, 32.64929, 5.76391],
+					"boxes": [
+						{
+							"coordinates": [-5, -5, -4.6, 0, 10, 9],
+							"uvNorth": [55, 22, 55, 32],
+							"uvEast": [64, 22, 55, 32],
+							"uvSouth": [64, 22, 64, 32],
+							"uvWest": [55, 22, 64, 32],
+							"uvUp": [55, 22, 55, 13],
+							"uvDown": [55, 13, 55, 22]
+						},
+						{
+							"coordinates": [5, -5, -4.4, 0, 10, 9],
+							"uvNorth": [55, 22, 55, 32],
+							"uvEast": [64, 22, 55, 32],
+							"uvSouth": [64, 22, 64, 32],
+							"uvWest": [55, 22, 64, 32],
+							"uvUp": [55, 22, 55, 13],
+							"uvDown": [55, 13, 55, 22]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"texture": "gunmetal:textures/entity/illager/sharpshooter.png",
+			"textureSize": [64, 64],
+			"boxes": [
+				{"coordinates": [-4, 12, -3, 8, 12, 6], "textureOffset": [16, 20]}
+			],
+			"submodels": [
+				{
+					"id": "coat",
+					"invertAxis": "xy",
+					"translate": [0, 22, 0],
+					"boxes": [
+						{"coordinates": [-4, -18, -3, 8, 20, 6], "textureOffset": [0, 38], "sizeAdd": 0.5}
+					]
+				},
+				{
+					"id": "cape",
+					"invertAxis": "xy",
+					"translate": [0, 24, 3.5],
+					"submodels": [
+						{
+							"id": "cape2",
+							"invertAxis": "xy",
+							"translate": [-7, 0, 11.5],
+							"rotate": [0, -15, 0],
+							"boxes": [
+								{
+									"coordinates": [-4, 0, -11.5, 8, 0, 23],
+									"uvNorth": [48, 55, 56, 55],
+									"uvEast": [25, 55, 48, 55],
+									"uvSouth": [79, 55, 87, 55],
+									"uvWest": [56, 55, 79, 55],
+									"uvUp": [64, 55, 56, 32],
+									"uvDown": [64, 32, 56, 55]
+								}
+							]
+						},
+						{
+							"id": "body_sub_2",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [7, 0, 11.5],
+							"rotate": [0, 15, 0],
+							"boxes": [
+								{
+									"coordinates": [-4, 0, -11.5, 8, 0, 23],
+									"uvNorth": [56, 55, 48, 55],
+									"uvEast": [79, 55, 56, 55],
+									"uvSouth": [87, 55, 79, 55],
+									"uvWest": [48, 55, 25, 55],
+									"uvUp": [56, 55, 64, 32],
+									"uvDown": [56, 32, 64, 55]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"texture": "gunmetal:textures/entity/illager/sharpshooter.png",
+			"textureSize": [64, 64],
+			"boxes": [
+				{
+					"coordinates": [3.5, 17.5, -2.5, 5, 7, 5],
+					"uvNorth": [35, 50, 40, 57],
+					"uvEast": [33, 50, 28, 57],
+					"uvSouth": [40, 50, 35, 57],
+					"uvWest": [40, 57, 35, 64],
+					"uvUp": [33, 50, 28, 45],
+					"uvDown": [35, 45, 40, 50]
+				},
+				{"coordinates": [4, 12, -2, 4, 12, 4], "textureOffset": [40, 46]}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -22, 0],
+			"texture": "gunmetal:textures/entity/illager/sharpshooter.png",
+			"textureSize": [64, 64],
+			"boxes": [
+				{"coordinates": [-8, 12, -2, 4, 12, 4], "textureOffset": [40, 46]},
+				{
+					"coordinates": [-8.5, 17.5, -2.5, 5, 7, 5],
+					"uvNorth": [40, 50, 35, 57],
+					"uvEast": [40, 57, 35, 64],
+					"uvSouth": [35, 50, 40, 57],
+					"uvWest": [28, 50, 33, 57],
+					"uvUp": [28, 50, 33, 45],
+					"uvDown": [35, 45, 40, 50]
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, 0, 0],
+			"texture": "gunmetal:textures/entity/illager/sharpshooter.png",
+			"textureSize": [64, 64],
+			"submodels": [
+				{
+					"id": "right_leg2",
+					"invertAxis": "xy",
+					"translate": [2, 12, 0],
+					"boxes": [
+						{
+							"coordinates": [-2.5, -5, -2.5, 5, 5, 5],
+							"uvNorth": [43, 20, 48, 25],
+							"uvEast": [38, 20, 43, 25],
+							"uvSouth": [48, 20, 53, 25],
+							"uvWest": [0, 0, 5, 5],
+							"uvUp": [5, 5, 0, 0],
+							"uvDown": [5, 0, 0, 5]
+						},
+						{"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [0, 22]}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [2, 0, 0],
+			"texture": "gunmetal:textures/entity/illager/sharpshooter.png",
+			"textureSize": [64, 64],
+			"submodels": [
+				{
+					"id": "left_leg2",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [-2, 12, 0],
+					"boxes": [
+						{"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [0, 22]},
+						{
+							"coordinates": [-2.5, -5, -2.5, 5, 5, 5],
+							"uvNorth": [48, 20, 43, 25],
+							"uvEast": [5, 0, 0, 5],
+							"uvSouth": [53, 20, 48, 25],
+							"uvWest": [43, 20, 38, 25],
+							"uvUp": [0, 5, 5, 0],
+							"uvDown": [0, 0, 5, 5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "hat",
+			"id": "hat",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

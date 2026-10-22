@@ -1,0 +1,8 @@
+{
+  "parent": "gunmetal:item/copper_bow",
+  "textures": {
+    "layer0": "gunmetal:item/bow_pulling_1",
+    "layer1": "gunmetal:item/copper_bow_standby",
+    "layer2": "gunmetal:item/arrow_pulling_1"
+  }
+}

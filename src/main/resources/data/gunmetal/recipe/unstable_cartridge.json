@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "#c:nuggets",
+    "#c:nuggets",
+    "#c:nuggets",
+    [
+      "minecraft:redstone",
+      "minecraft:glowstone_dust"
+    ],
+    "minecraft:paper"
+  ],
+  "result": {
+    "id": "gunmetal:unstable_cartridge",
+    "count": 2
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "gunmetal:entities/aviator_salvage_immersive_aircraft",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "gunmetal:entities/aviator_salvage_create",
+          "weight": 2
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.025
+        }
+      ]
+    }
+  ]
+}

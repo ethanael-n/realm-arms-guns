@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "gunmetal:copper_arquebus",
+    "gunmetal:brass_arquebus",
+    "gunmetal:steel_arquebus",
+    "gunmetal:copper_blunderbuss",
+    "gunmetal:brass_blunderbuss",
+    "gunmetal:steel_blunderbuss",
+    "gunmetal:brass_rifle",
+    "gunmetal:steel_rifle",
+    "gunmetal:hand_cannon",
+    "gunmetal:copper_volleygun",
+    "gunmetal:brass_volleygun",
+    "gunmetal:steel_volleygun",
+    "gunmetal:repeater"
+  ]
+}

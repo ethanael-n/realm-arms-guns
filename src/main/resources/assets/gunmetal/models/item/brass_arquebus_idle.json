@@ -1,0 +1,7 @@
+{
+  "parent": "gunmetal:item/gun/arquebus_idle",
+  "textures": {
+    "0": "gunmetal:item/brass_arquebus",
+    "particle": "gunmetal:item/brass_arquebus"
+  }
+}

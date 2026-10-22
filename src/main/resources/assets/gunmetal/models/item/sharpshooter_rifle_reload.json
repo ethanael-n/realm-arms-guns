@@ -1,0 +1,22 @@
+{
+  "parent": "gunmetal:item/steel_rifle_idle",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        72.8,
+        30.3,
+        -11.6
+      ],
+      "translation": [
+        -0.5,
+        -2.25,
+        0.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  }
+}

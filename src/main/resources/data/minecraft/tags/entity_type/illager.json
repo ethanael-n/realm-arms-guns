@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "gunmetal:bombardier",
+    "gunmetal:sharpshooter",
+    "gunmetal:trooper",
+    "gunmetal:artificer"
+  ]
+}

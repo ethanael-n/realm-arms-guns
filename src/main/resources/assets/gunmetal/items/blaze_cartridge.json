@@ -1,0 +1,56 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:main_hand",
+    "cases": [
+      {
+        "when": "right",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:empty"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "gunmetal:item/blaze_cartridge"
+          }
+        }
+      },
+      {
+        "when": "left",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand"
+              ],
+              "model": {
+                "type": "minecraft:empty"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "gunmetal:item/blaze_cartridge"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "gunmetal:item/blaze_cartridge"
+    }
+  }
+}

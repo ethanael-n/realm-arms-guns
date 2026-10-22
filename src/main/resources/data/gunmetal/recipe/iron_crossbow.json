@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#I#",
+    "~T~",
+    " # "
+  ],
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "I": "minecraft:iron_ingot",
+    "~": "minecraft:string",
+    "T": "minecraft:tripwire_hook"
+  },
+  "result": {
+    "id": "gunmetal:iron_crossbow",
+    "count": 1
+  }
+}

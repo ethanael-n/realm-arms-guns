@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "id": "gunmetal:steel_volleygun"
+    },
+    "title": {
+      "translate": "advancements.gunmetal.cry_some_more.title"
+    },
+    "description": {
+      "translate": "advancements.gunmetal.cry_some_more.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "gunmetal:item/gun/volleygun_loading",
+  "textures": {
+    "0": "gunmetal:item/copper_volleygun",
+    "particle": "gunmetal:item/copper_volleygun"
+  }
+}

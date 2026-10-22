@@ -1,0 +1,8 @@
+{
+  "parent": "gunmetal:item/gun/pistol_idle",
+  "textures": {
+    "0": "gunmetal:item/copper_pistol",
+    "1": "gunmetal:item/flintlockthings",
+    "particle": "gunmetal:item/copper_pistol"
+  }
+}

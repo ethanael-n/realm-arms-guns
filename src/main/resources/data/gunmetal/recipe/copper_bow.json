@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " #~",
+    "# ~",
+    " #~"
+  ],
+  "key": {
+    "#": "minecraft:copper_ingot",
+    "~": "minecraft:string"
+  },
+  "result": {
+    "id": "gunmetal:copper_bow",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "gunmetal:item/steel_rifle_idle",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [173.1, -4.5, 4.7],
+			"translation": [0.5, 0.25, 8.5]
+		}
+	}
+}

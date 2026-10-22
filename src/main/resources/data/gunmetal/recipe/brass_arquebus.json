@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "N  ",
+    "III",
+    "WH "
+  ],
+  "key": {
+    "H": "minecraft:tripwire_hook",
+    "I": "create:brass_ingot",
+    "W": "#minecraft:planks",
+    "N": "gunmetal:brass_ignition"
+  },
+  "result": {
+    "id": "gunmetal:brass_arquebus",
+    "count": 1
+  }
+}

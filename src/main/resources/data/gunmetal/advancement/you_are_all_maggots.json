@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "id": "gunmetal:hand_cannon"
+    },
+    "title": {
+      "translate": "advancements.gunmetal.you_are_all_maggots.title"
+    },
+    "description": {
+      "translate": "advancements.gunmetal.you_are_all_maggots.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

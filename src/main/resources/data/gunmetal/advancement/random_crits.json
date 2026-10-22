@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "id": "gunmetal:unstable_cartridge"
+    },
+    "title": {
+      "translate": "advancements.gunmetal.random_crits.title"
+    },
+    "description": {
+      "translate": "advancements.gunmetal.random_crits.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

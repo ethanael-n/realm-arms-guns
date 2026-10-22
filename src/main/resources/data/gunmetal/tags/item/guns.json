@@ -1,0 +1,27 @@
+{
+  "values": [
+    "gunmetal:copper_pistol",
+    "gunmetal:brass_pistol",
+    "gunmetal:steel_pistol",
+    "gunmetal:copper_carbine",
+    "gunmetal:brass_carbine",
+    "gunmetal:steel_carbine",
+    "gunmetal:copper_musketoon",
+    "gunmetal:brass_musketoon",
+    "gunmetal:steel_musketoon",
+    "gunmetal:copper_arquebus",
+    "gunmetal:brass_arquebus",
+    "gunmetal:steel_arquebus",
+    "gunmetal:copper_blunderbuss",
+    "gunmetal:brass_blunderbuss",
+    "gunmetal:steel_blunderbuss",
+    "gunmetal:copper_volleygun",
+    "gunmetal:brass_volleygun",
+    "gunmetal:steel_volleygun",
+    "gunmetal:brass_rifle",
+    "gunmetal:steel_rifle",
+    "gunmetal:hand_cannon",
+    "gunmetal:revolver",
+    "gunmetal:repeater"
+  ]
+}

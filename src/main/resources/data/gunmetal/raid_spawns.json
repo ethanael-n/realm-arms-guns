@@ -1,0 +1,151 @@
+{
+  "_comment": "Extra raiders per raid wave. Per entity: wave -> {chance, min, max}. With probability 'chance' (default 1) a uniform count from min to max (default 1) joins that wave; 'bonus_chance' is a separate roll for one more, or a list of chances, each an independent roll for one more. A wave that isn't listed uses the closest listed wave below it; waves below the lowest listed get none. Waves count from 1 (Hard: 7 waves + the bonus wave 8). Re-read every wave, so /reload applies at once.",
+  "spawns": {
+    "gunmetal:bombardier": {
+      "4": {
+        "min": 0,
+        "max": 1
+      },
+      "5": {
+        "min": 0,
+        "max": 2
+      },
+      "6": {
+        "min": 1,
+        "max": 2
+      },
+      "7": {
+        "min": 1,
+        "max": 3
+      },
+      "8": {
+        "min": 1,
+        "max": 4
+      }
+    },
+    "gunmetal:sharpshooter": {
+      "1": {
+        "chance": 0.15
+      },
+      "2": {
+        "chance": 0.15
+      },
+      "3": {
+        "chance": 0.32
+      },
+      "4": {
+        "chance": 0.64
+      },
+      "5": {
+        "chance": 0.32
+      },
+      "6": {
+        "chance": 0.64
+      },
+      "7": {
+        "chance": 0.32
+      },
+      "8": {
+        "chance": 1.0
+      }
+    },
+    "gunmetal:trooper": {
+      "3": {
+        "min": 0,
+        "max": 3
+      },
+      "4": {
+        "min": 0,
+        "max": 4
+      },
+      "5": {
+        "min": 1,
+        "max": 4
+      },
+      "6": {
+        "min": 1,
+        "max": 6
+      },
+      "7": {
+        "min": 2,
+        "max": 6
+      },
+      "8": {
+        "min": 3,
+        "max": 6
+      }
+    },
+    "gunmetal:artificer": {
+      "3": {
+        "chance": 0.5
+      },
+      "4": {
+        "chance": 0.1
+      },
+      "5": {
+        "chance": 0.5
+      },
+      "6": {
+        "chance": 0.8
+      },
+      "7": {
+        "chance": 0.1
+      },
+      "8": {
+        "min": 1,
+        "max": 2
+      }
+    },
+    "gunmetal:siege_balloon": {
+      "1": {
+        "chance": 0.01
+      },
+      "2": {
+        "chance": 0.02
+      },
+      "3": {
+        "chance": 0.04
+      },
+      "4": {
+        "chance": 0.08,
+        "bonus_chance": [
+          0.01,
+          0
+        ]
+      },
+      "5": {
+        "chance": 0.16,
+        "bonus_chance": [
+          0.04,
+          0.01
+        ]
+      },
+      "6": {
+        "chance": 0.32,
+        "bonus_chance": [
+          0.08,
+          0.02
+        ]
+      },
+      "7": {
+        "chance": 0.64,
+        "bonus_chance": [
+          0.16,
+          0.04
+        ]
+      },
+      "8": {
+        "chance": 1.0,
+        "bonus_chance": [
+          0.32,
+          0.08
+        ]
+      }
+    },
+    "gunmetal:aviator": {
+      "1": {
+        "chance": 0.1
+      }
+    }
+  }
+}

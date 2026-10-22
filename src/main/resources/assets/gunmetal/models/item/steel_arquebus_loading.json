@@ -1,0 +1,7 @@
+{
+  "parent": "gunmetal:item/gun/arquebus_loading",
+  "textures": {
+    "0": "gunmetal:item/steel_arquebus",
+    "particle": "gunmetal:item/steel_arquebus"
+  }
+}

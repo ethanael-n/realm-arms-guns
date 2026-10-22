@@ -1,0 +1,7 @@
+{
+  "parent": "gunmetal:item/gun/rifle_loaded",
+  "textures": {
+    "0": "gunmetal:item/brass_rifle",
+    "particle": "gunmetal:item/brass_rifle"
+  }
+}

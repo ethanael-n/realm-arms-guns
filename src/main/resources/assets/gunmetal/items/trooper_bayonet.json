@@ -1,0 +1,80 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": [
+          "trooper_idle",
+          "trooper_reloading"
+        ],
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "gunmetal:item/trooper_arquebus_rest"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "gunmetal:item/trooper_bayonet_rest"
+            }
+          ]
+        }
+      },
+      {
+        "when": [
+          "trooper_aiming",
+          "trooper_smoke_chambered",
+          "trooper_bayonet_fixed"
+        ],
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "gunmetal:item/trooper_arquebus_aim"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "gunmetal:item/trooper_bayonet_aim"
+            }
+          ]
+        }
+      },
+      {
+        "when": [
+          "trooper_charging",
+          "trooper_fixing"
+        ],
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "gunmetal:item/trooper_arquebus_charge"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "gunmetal:item/trooper_bayonet_charge"
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "gunmetal:item/trooper_arquebus"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "gunmetal:item/trooper_bayonet"
+        }
+      ]
+    }
+  }
+}

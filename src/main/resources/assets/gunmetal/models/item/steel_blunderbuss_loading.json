@@ -1,0 +1,7 @@
+{
+  "parent": "gunmetal:item/gun/blunderbuss_loading",
+  "textures": {
+    "0": "gunmetal:item/steel_blunderbuss",
+    "particle": "gunmetal:item/steel_blunderbuss"
+  }
+}

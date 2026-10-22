@@ -1,0 +1,7 @@
+{
+  "parent": "gunmetal:item/gun/musketoon_idle",
+  "textures": {
+    "0": "gunmetal:item/steel_musketoon",
+    "particle": "gunmetal:item/steel_musketoon"
+  }
+}

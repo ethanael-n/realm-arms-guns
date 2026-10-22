@@ -1,0 +1,22 @@
+{
+  "parent": "gunmetal:item/trooper_bayonet",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        176.37,
+        -5.32,
+        1.27
+      ],
+      "translation": [
+        0.5,
+        0.5,
+        10.25
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "gunmetal:second_scoper",
+  "display": {
+    "icon": {
+      "id": "gunmetal:steel_rifle"
+    },
+    "title": {
+      "translate": "advancements.gunmetal.sniping_a_good_job_mate.title"
+    },
+    "description": {
+      "translate": "advancements.gunmetal.sniping_a_good_job_mate.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

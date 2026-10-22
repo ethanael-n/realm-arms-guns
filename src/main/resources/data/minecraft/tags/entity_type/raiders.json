@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "gunmetal:bombardier",
+    "gunmetal:sharpshooter",
+    "gunmetal:trooper",
+    "gunmetal:artificer",
+    "gunmetal:drone",
+    "gunmetal:puppeted",
+    "gunmetal:siege_balloon",
+    "gunmetal:aviator"
+  ]
+}

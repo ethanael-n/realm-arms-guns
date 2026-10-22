@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:selector",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gunmetal:copper_pistol"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "gunmetal:pillager_weapon"
+}

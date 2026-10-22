@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "id": "gunmetal:blaze_cartridge"
+    },
+    "title": {
+      "translate": "advancements.gunmetal.w_m1.title"
+    },
+    "description": {
+      "translate": "advancements.gunmetal.w_m1.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

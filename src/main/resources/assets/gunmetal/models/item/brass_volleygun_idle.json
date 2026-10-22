@@ -1,0 +1,7 @@
+{
+  "parent": "gunmetal:item/gun/volleygun_idle",
+  "textures": {
+    "0": "gunmetal:item/brass_volleygun",
+    "particle": "gunmetal:item/brass_volleygun"
+  }
+}

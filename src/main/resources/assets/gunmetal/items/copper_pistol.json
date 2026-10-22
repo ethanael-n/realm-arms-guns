@@ -1,0 +1,24 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "gunmetal:loaded",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "gunmetal:item/copper_pistol_loaded"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:has_component",
+      "component": "gunmetal:loading_stage",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "gunmetal:item/copper_pistol_loading"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "gunmetal:item/copper_pistol_idle"
+      }
+    }
+  }
+}

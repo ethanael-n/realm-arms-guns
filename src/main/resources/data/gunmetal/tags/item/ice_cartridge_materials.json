@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:snowball",
+    {
+      "id": "frostiful:packed_snowball",
+      "required": false
+    },
+    {
+      "id": "wilderwild:icicle",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:icicle",
+      "required": false
+    },
+    {
+      "id": "frostiful:icicle",
+      "required": false
+    }
+  ]
+}

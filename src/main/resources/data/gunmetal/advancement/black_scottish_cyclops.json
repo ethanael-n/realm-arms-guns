@@ -1,0 +1,23 @@
+{
+  "parent": "gunmetal:you_are_all_maggots",
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "advancements.gunmetal.black_scottish_cyclops.title"
+    },
+    "description": {
+      "translate": "advancements.gunmetal.black_scottish_cyclops.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

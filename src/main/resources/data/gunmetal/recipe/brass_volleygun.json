@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "NIS",
+    "IIS",
+    "WHS"
+  ],
+  "key": {
+    "H": "minecraft:tripwire_hook",
+    "W": "#minecraft:planks",
+    "N": "gunmetal:brass_ignition",
+    "S": "create:brass_sheet",
+    "I": "create:brass_ingot"
+  },
+  "result": {
+    "id": "gunmetal:brass_volleygun",
+    "count": 1
+  }
+}

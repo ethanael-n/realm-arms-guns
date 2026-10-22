@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "alloyed"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "NG ",
+    "ISS",
+    "WH "
+  ],
+  "key": {
+    "H": "minecraft:tripwire_hook",
+    "G": "minecraft:spyglass",
+    "W": "#minecraft:planks",
+    "S": "alloyed:steel_sheet",
+    "I": "alloyed:steel_ingot",
+    "N": "gunmetal:steel_ignition"
+  },
+  "result": {
+    "id": "gunmetal:steel_rifle",
+    "count": 1
+  }
+}

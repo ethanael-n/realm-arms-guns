@@ -1,0 +1,852 @@
+{
+  "gun.pistol.fire": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.gun.pistol.fire",
+    "sounds": [
+      {
+        "name": "gunmetal:gun/pistol_fire",
+        "weight": 12
+      },
+      {
+        "name": "gunmetal:gun/pistol_fire2",
+        "weight": 1
+      },
+      {
+        "name": "gunmetal:gun/pistol_fire3",
+        "weight": 1
+      }
+    ]
+  },
+  "gun.carbine.fire": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.gun.carbine.fire",
+    "sounds": [
+      {
+        "name": "gunmetal:gun/carbine_fire"
+      }
+    ]
+  },
+  "gun.musketoon.fire": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.gun.musketoon.fire",
+    "sounds": [
+      {
+        "name": "gunmetal:gun/musketoon_fire"
+      }
+    ]
+  },
+  "gun.arquebus.fire": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.gun.arquebus.fire",
+    "sounds": [
+      {
+        "name": "gunmetal:gun/arquebus_fire"
+      }
+    ]
+  },
+  "gun.blunderbuss.fire": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.gun.blunderbuss.fire",
+    "sounds": [
+      {
+        "name": "gunmetal:gun/blunderbuss_fire"
+      }
+    ]
+  },
+  "gun.rifle.fire": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.gun.rifle.fire",
+    "sounds": [
+      {
+        "name": "gunmetal:gun/rifle_fire"
+      }
+    ]
+  },
+  "gun.hand_cannon.fire": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.gun.hand_cannon.fire",
+    "sounds": [
+      {
+        "name": "gunmetal:gun/hand_cannon_fire",
+        "weight": 1
+      },
+      {
+        "name": "gunmetal:gun/hand_cannon_fire2",
+        "weight": 1
+      }
+    ]
+  },
+  "gun.volleygun.fire": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.gun.volleygun.fire",
+    "sounds": [
+      {
+        "name": "gunmetal:gun/volleygun_fire_1",
+        "weight": 9
+      },
+      {
+        "name": "gunmetal:gun/volleygun_fire_2",
+        "weight": 1
+      },
+      {
+        "name": "gunmetal:gun/volleygun_fire_3",
+        "weight": 2
+      },
+      {
+        "name": "gunmetal:gun/volleygun_fire_4",
+        "weight": 10
+      },
+      {
+        "name": "gunmetal:gun/volleygun_fire_5",
+        "weight": 7
+      }
+    ]
+  },
+  "gun.pistol.load_first": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/pistol_start"
+      }
+    ]
+  },
+  "gun.pistol.ready": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/pistol_ready"
+      }
+    ]
+  },
+  "gun.carbine.load_first": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/carbine_start"
+      }
+    ]
+  },
+  "gun.carbine.ready": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/carbine_ready"
+      }
+    ]
+  },
+  "gun.musketoon.load_first": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/musketoon_start"
+      }
+    ]
+  },
+  "gun.musketoon.ready": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/musketoon_ready"
+      }
+    ]
+  },
+  "gun.arquebus.load_first": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/arquebus_start"
+      }
+    ]
+  },
+  "gun.arquebus.ready": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/arquebus_ready"
+      }
+    ]
+  },
+  "gun.blunderbuss.load_first": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/blunderbuss_start"
+      }
+    ]
+  },
+  "gun.blunderbuss.ready": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/blunderbuss_ready"
+      }
+    ]
+  },
+  "gun.rifle.load_first": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/rifle_start"
+      }
+    ]
+  },
+  "gun.rifle.ready": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/rifle_ready"
+      }
+    ]
+  },
+  "gun.hand_cannon.load_first": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/hand_cannon_start"
+      }
+    ]
+  },
+  "gun.hand_cannon.ready": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/hand_cannon_ready"
+      }
+    ]
+  },
+  "gun.volleygun.load_first": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/volleygun_start"
+      }
+    ]
+  },
+  "gun.volleygun.ready": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gunmetal:gun/volleygun_ready"
+      }
+    ]
+  },
+  "gun.load1": {
+    "sounds": [
+      {
+        "name": "gunmetal:gun/load1"
+      }
+    ]
+  },
+  "gun.load2": {
+    "sounds": [
+      {
+        "name": "gunmetal:gun/load2"
+      }
+    ]
+  },
+  "gun.load0": {
+    "sounds": [
+      {
+        "name": "gunmetal:gun/load0"
+      }
+    ]
+  },
+  "dispenser_fire": {
+    "subtitle": "subtitles.gunmetal.dispenser_fire",
+    "sounds": [
+      {
+        "name": "gunmetal:dispenser_fire"
+      }
+    ]
+  },
+  "bullet.fly_by": {
+    "subtitle": "subtitles.gunmetal.bullet.fly_by",
+    "sounds": [
+      {
+        "name": "gunmetal:bullet/fly_by1"
+      },
+      {
+        "name": "gunmetal:bullet/fly_by2"
+      },
+      {
+        "name": "gunmetal:bullet/fly_by3"
+      }
+    ]
+  },
+  "bullet.water_hit": {
+    "sounds": [
+      {
+        "name": "gunmetal:bullet/water_hit1"
+      },
+      {
+        "name": "gunmetal:bullet/water_hit2"
+      }
+    ]
+  },
+  "gun.revolver.fire": {
+    "subtitle": "subtitles.gunmetal.gun.revolver.fire",
+    "sounds": [
+      {
+        "name": "gunmetal:gun/pistol_fire"
+      }
+    ]
+  },
+  "gun.revolver.load_first": {
+    "sounds": [
+      {
+        "name": "gunmetal:gun/pistol_start"
+      }
+    ]
+  },
+  "gun.revolver.round": {
+    "sounds": [
+      {
+        "name": "gunmetal:gun/load2"
+      }
+    ]
+  },
+  "gun.revolver.ready": {
+    "sounds": [
+      {
+        "name": "gunmetal:gun/pistol_ready"
+      }
+    ]
+  },
+  "gun.repeater.fire": {
+    "subtitle": "subtitles.gunmetal.gun.repeater.fire",
+    "sounds": [
+      {
+        "name": "gunmetal:gun/carbine_fire"
+      }
+    ]
+  },
+  "gun.repeater.load_first": {
+    "sounds": [
+      {
+        "name": "gunmetal:gun/carbine_start"
+      }
+    ]
+  },
+  "gun.repeater.round": {
+    "sounds": [
+      {
+        "name": "gunmetal:gun/load2"
+      }
+    ]
+  },
+  "gun.repeater.ready": {
+    "sounds": [
+      {
+        "name": "gunmetal:gun/carbine_ready"
+      }
+    ]
+  },
+  "entity.bombardier.fire": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.bombardier.fire",
+    "sounds": [
+      {
+        "name": "gunmetal:gun.hand_cannon.fire",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.sharpshooter.fire": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.sharpshooter.fire",
+    "sounds": [
+      {
+        "name": "gunmetal:gun.rifle.fire",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.trooper.fix_bayonet": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.trooper.fix_bayonet",
+    "sounds": [
+      "gunmetal:entity/trooper/fix_bayonet"
+    ]
+  },
+  "entity.trooper.equip_bayonet": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.trooper.equip_bayonet",
+    "sounds": [
+      "gunmetal:entity/trooper/equip_bayonet"
+    ]
+  },
+  "entity.trooper.shield_hit": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.trooper.shield_hit",
+    "sounds": [
+      "gunmetal:entity/trooper/troopershieldhit1",
+      "gunmetal:entity/trooper/troopershieldhit2",
+      "gunmetal:entity/trooper/troopershieldhit3"
+    ]
+  },
+  "entity.trooper.shell_break": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.trooper.shell_break",
+    "sounds": [
+      "gunmetal:entity/trooper/shell_break"
+    ]
+  },
+  "entity.bombardier.ambient": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.bombardier.ambient",
+    "sounds": [
+      "gunmetal:bombardier/ambient1",
+      "gunmetal:bombardier/ambient2",
+      "gunmetal:bombardier/ambient3",
+      "gunmetal:bombardier/ambient4"
+    ]
+  },
+  "entity.bombardier.hurt": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.bombardier.hurt",
+    "sounds": [
+      "gunmetal:bombardier/hurt1",
+      "gunmetal:bombardier/hurt2",
+      "gunmetal:bombardier/hurt3"
+    ]
+  },
+  "entity.bombardier.death": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.bombardier.death",
+    "sounds": [
+      "gunmetal:bombardier/death1",
+      "gunmetal:bombardier/death2"
+    ]
+  },
+  "entity.sharpshooter.ambient": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.sharpshooter.ambient",
+    "sounds": [
+      "gunmetal:entity/sharpshooter/idle_1",
+      "gunmetal:entity/sharpshooter/idle_2",
+      "gunmetal:entity/sharpshooter/idle_3",
+      "gunmetal:entity/sharpshooter/idle_4"
+    ]
+  },
+  "entity.sharpshooter.hurt": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.sharpshooter.hurt",
+    "sounds": [
+      "gunmetal:entity/sharpshooter/hurt_1"
+    ]
+  },
+  "entity.sharpshooter.death": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.sharpshooter.death",
+    "sounds": [
+      "gunmetal:entity/sharpshooter/death_1",
+      "gunmetal:entity/sharpshooter/death_2"
+    ]
+  },
+  "entity.trooper.ambient": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.trooper.ambient",
+    "sounds": [
+      "gunmetal:entity/trooper/idle_1",
+      "gunmetal:entity/trooper/idle_2",
+      "gunmetal:entity/trooper/idle_3",
+      "gunmetal:entity/trooper/idle_4"
+    ]
+  },
+  "entity.trooper.hurt": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.trooper.hurt",
+    "sounds": [
+      "gunmetal:entity/trooper/hurt_1",
+      "gunmetal:entity/trooper/hurt_2",
+      "gunmetal:entity/trooper/hurt_3"
+    ]
+  },
+  "entity.trooper.death": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.trooper.death",
+    "sounds": [
+      "gunmetal:entity/trooper/death_1",
+      "gunmetal:entity/trooper/death_2"
+    ]
+  },
+  "entity.trooper.horn": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.trooper.horn",
+    "sounds": [
+      "gunmetal:trooper/horn"
+    ]
+  },
+  "entity.trooper.smoke": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.trooper.smoke",
+    "sounds": [
+      "gunmetal:entity/trooper/smoke"
+    ]
+  },
+  "entity.artificer.ambient": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.artificer.ambient",
+    "sounds": [
+      "gunmetal:entity/artificer/idle_1",
+      "gunmetal:entity/artificer/idle_2",
+      "gunmetal:entity/artificer/idle_3",
+      "gunmetal:entity/artificer/idle_4"
+    ]
+  },
+  "entity.artificer.hurt": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.artificer.hurt",
+    "sounds": [
+      "gunmetal:entity/artificer/hurt_1",
+      "gunmetal:entity/artificer/hurt_2",
+      "gunmetal:entity/artificer/hurt_3"
+    ]
+  },
+  "entity.artificer.death": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.artificer.death",
+    "sounds": [
+      "gunmetal:entity/artificer/death_1",
+      "gunmetal:entity/artificer/death_2"
+    ]
+  },
+  "entity.artificer.summon": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.artificer.summon",
+    "sounds": [
+      {
+        "name": "gunmetal:entity/artificer/summon"
+      }
+    ]
+  },
+  "entity.artificer.pulse_warning": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.artificer.pulse_warning",
+    "sounds": [
+      {
+        "name": "gunmetal:entity/artificer/pulse_warning"
+      }
+    ]
+  },
+  "entity.artificer.pulse": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.artificer.pulse",
+    "sounds": [
+      "gunmetal:entity/artificer/pulse"
+    ]
+  },
+  "entity.artificer.electrified": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.artificer.electrified",
+    "sounds": [
+      {
+        "name": "gunmetal:entity/artificer/electrified"
+      }
+    ]
+  },
+  "entity.artificer.zap": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.artificer.zap",
+    "sounds": [
+      {
+        "name": "gunmetal:entity/artificer/zap"
+      }
+    ]
+  },
+  "entity.drone.ambient": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.drone.ambient",
+    "sounds": [
+      "gunmetal:entity/drone/drone_idle_1",
+      "gunmetal:entity/drone/drone_idle_2",
+      "gunmetal:entity/drone/drone_idle_3"
+    ]
+  },
+  "entity.drone.hurt": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.drone.hurt",
+    "sounds": [
+      "gunmetal:entity/drone/construct_hurt_1",
+      "gunmetal:entity/drone/construct_hurt_2",
+      "gunmetal:entity/drone/construct_hurt_3",
+      "gunmetal:entity/drone/construct_hurt_4"
+    ]
+  },
+  "entity.drone.death": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.drone.death",
+    "sounds": [
+      "gunmetal:entity/artificer/zap"
+    ]
+  },
+  "entity.drone.upgrade": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.drone.upgrade",
+    "sounds": [
+      "gunmetal:entity/drone/upgrade"
+    ]
+  },
+  "entity.brass_golem.tick": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.brass_golem.tick",
+    "sounds": [
+      "gunmetal:entity/brass_golem/tick"
+    ]
+  },
+  "entity.brass_golem.fuse": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.brass_golem.fuse",
+    "sounds": [
+      "gunmetal:entity/brass_golem/fuse"
+    ]
+  },
+  "entity.brass_golem.hurt": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.brass_golem.hurt",
+    "sounds": [
+      "gunmetal:entity/brass_golem/construct_hurt_1",
+      "gunmetal:entity/brass_golem/construct_hurt_2",
+      "gunmetal:entity/brass_golem/construct_hurt_3",
+      "gunmetal:entity/brass_golem/construct_hurt_4"
+    ]
+  },
+  "entity.brass_golem.death": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.brass_golem.death",
+    "sounds": [
+      "gunmetal:entity/brass_golem/death"
+    ]
+  },
+  "entity.brass_golem.step": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.brass_golem.step",
+    "sounds": [
+      {
+        "name": "minecraft:entity.copper_golem.step",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.trooper.rally_yell": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.trooper.rally_yell",
+    "sounds": [
+      "gunmetal:entity/trooper/rally_yell_1",
+      "gunmetal:entity/trooper/rally_yell_2",
+      "gunmetal:entity/trooper/rally_yell_3",
+      "gunmetal:entity/trooper/rally_yell_4",
+      "gunmetal:entity/trooper/rally_yell_5",
+      "gunmetal:entity/trooper/rally_yell_6",
+      "gunmetal:entity/trooper/rally_yell_7",
+      "gunmetal:entity/trooper/rally_yell_8"
+    ]
+  },
+  "item.brass_deployable.throw": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.item.brass_deployable.throw",
+    "sounds": [
+      {
+        "name": "minecraft:entity.snowball.throw",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.puppeted.ambient_incomplete": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.puppeted.ambient_incomplete",
+    "sounds": [
+      "gunmetal:entity/puppeted/incomplete_idle_1",
+      "gunmetal:entity/puppeted/incomplete_idle_2",
+      "gunmetal:entity/puppeted/incomplete_idle_3",
+      "gunmetal:entity/puppeted/incomplete_idle_4"
+    ]
+  },
+  "entity.puppeted.ambient_complete": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.puppeted.ambient_complete",
+    "sounds": [
+      "gunmetal:entity/puppeted/complete_idle_1",
+      "gunmetal:entity/puppeted/complete_idle_2",
+      "gunmetal:entity/puppeted/complete_idle_3",
+      "gunmetal:entity/puppeted/complete_idle_4"
+    ]
+  },
+  "entity.puppeted.hurt": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.puppeted.hurt",
+    "sounds": [
+      "gunmetal:entity/puppeted/hurt_1",
+      "gunmetal:entity/puppeted/hurt_2",
+      "gunmetal:entity/puppeted/hurt_3"
+    ]
+  },
+  "entity.puppeted.death": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.puppeted.death",
+    "sounds": [
+      "gunmetal:entity/puppeted/death_1",
+      "gunmetal:entity/puppeted/death_2"
+    ]
+  },
+  "entity.puppeted.step": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.puppeted.step",
+    "sounds": [
+      "gunmetal:entity/puppeted/step_1",
+      "gunmetal:entity/puppeted/step_2",
+      "gunmetal:entity/puppeted/step_3",
+      "gunmetal:entity/puppeted/step_4",
+      "gunmetal:entity/puppeted/step_5",
+      "gunmetal:entity/puppeted/step_6"
+    ]
+  },
+  "entity.siege_balloon.ambient": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.siege_balloon.ambient",
+    "sounds": [
+      "gunmetal:entity/siege_balloon/idle_1",
+      "gunmetal:entity/siege_balloon/idle_2",
+      "gunmetal:entity/siege_balloon/idle_3"
+    ]
+  },
+  "entity.siege_balloon.hurt": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.siege_balloon.hurt",
+    "sounds": [
+      "gunmetal:entity/siege_balloon/hurt_1",
+      "gunmetal:entity/siege_balloon/hurt_2",
+      "gunmetal:entity/siege_balloon/hurt_3"
+    ]
+  },
+  "entity.siege_balloon.death": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.siege_balloon.death",
+    "sounds": [
+      "gunmetal:entity/siege_balloon/death"
+    ]
+  },
+  "entity.siege_balloon.rise_change": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.siege_balloon.rise_change",
+    "sounds": [
+      "gunmetal:entity/siege_balloon/rise_change"
+    ]
+  },
+  "entity.siege_balloon.deploy": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.siege_balloon.deploy",
+    "sounds": [
+      "gunmetal:entity/siege_balloon/paratrooper_drop"
+    ]
+  },
+  "entity.siege_balloon.cannon_ready": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.siege_balloon.cannon_ready",
+    "sounds": [
+      {
+        "name": "minecraft:block.piston.contract",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.siege_balloon.crossbow_ready": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.siege_balloon.crossbow_ready",
+    "sounds": [
+      "gunmetal:entity/siege_balloon/crossbow_ready"
+    ]
+  },
+  "entity.siege_balloon.crossbow_fire": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.siege_balloon.crossbow_fire",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.launch",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.siege_balloon.damage_stage_1": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.siege_balloon.damage_stage_1",
+    "sounds": [
+      "gunmetal:entity/siege_balloon/damage_stage_1"
+    ]
+  },
+  "entity.siege_balloon.damage_stage_2": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.siege_balloon.damage_stage_2",
+    "sounds": [
+      "gunmetal:entity/siege_balloon/damage_stage_2"
+    ]
+  },
+  "entity.siege_balloon.bleed": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.siege_balloon.bleed",
+    "sounds": [
+      "gunmetal:entity/siege_balloon/bleed"
+    ]
+  },
+  "entity.siege_balloon.drop_warning": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.siege_balloon.drop_warning",
+    "sounds": [
+      {
+        "name": "gunmetal:entity/siege_balloon/drop_warning"
+      }
+    ]
+  },
+  "entity.siege_balloon.mayday": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.siege_balloon.mayday",
+    "sounds": [
+      {
+        "name": "gunmetal:entity/siege_balloon/mayday"
+      }
+    ]
+  },
+  "entity.siege_balloon.untether": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.siege_balloon.untether",
+    "sounds": [
+      "gunmetal:entity/siege_balloon/untether"
+    ]
+  },
+  "entity.aviator.ambient": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.aviator.ambient",
+    "sounds": [
+      "gunmetal:entity/aviator/idle_1",
+      "gunmetal:entity/aviator/idle_2",
+      "gunmetal:entity/aviator/idle_3",
+      "gunmetal:entity/aviator/idle_4",
+      "gunmetal:entity/aviator/idle_5"
+    ]
+  },
+  "entity.aviator.hurt": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.aviator.hurt",
+    "sounds": [
+      "gunmetal:entity/aviator/hurt_1",
+      "gunmetal:entity/aviator/hurt_2",
+      "gunmetal:entity/aviator/hurt_3"
+    ]
+  },
+  "entity.aviator.death": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.aviator.death",
+    "sounds": [
+      "gunmetal:entity/aviator/death_1",
+      "gunmetal:entity/aviator/death_2",
+      "gunmetal:entity/aviator/death_3"
+    ]
+  },
+  "entity.sharpshooter.smoke_bomb": {
+    "replace": true,
+    "subtitle": "subtitles.gunmetal.entity.sharpshooter.smoke_bomb",
+    "sounds": [
+      "gunmetal:entity/sharpshooter/smoke_bomb"
+    ]
+  }
+}

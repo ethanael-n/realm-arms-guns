@@ -1,0 +1,7 @@
+{
+  "parent": "gunmetal:item/rose_gold_crossbow",
+  "textures": {
+    "layer0": "gunmetal:item/rose_gold_crossbow",
+    "layer1": "gunmetal:item/crossbow_pulling_1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "gunmetal:black_scottish_cyclops",
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.gunmetal.bid_farewell_cruel_world.title"
+    },
+    "description": {
+      "translate": "advancements.gunmetal.bid_farewell_cruel_world.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "N I",
+    "III",
+    "WHI"
+  ],
+  "key": {
+    "H": "minecraft:tripwire_hook",
+    "I": "minecraft:copper_ingot",
+    "W": "#minecraft:planks",
+    "N": "gunmetal:copper_ignition"
+  },
+  "result": {
+    "id": "gunmetal:copper_blunderbuss",
+    "count": 1
+  }
+}

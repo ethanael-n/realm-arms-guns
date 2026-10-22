@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gunmetal:item/siege_balloon_spawn_egg"
+  }
+}

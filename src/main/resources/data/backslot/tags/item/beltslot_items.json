@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "gunmetal:copper_pistol",
+    "gunmetal:brass_pistol",
+    "gunmetal:steel_pistol",
+    "gunmetal:copper_carbine",
+    "gunmetal:brass_carbine",
+    "gunmetal:steel_carbine",
+    "gunmetal:copper_musketoon",
+    "gunmetal:brass_musketoon",
+    "gunmetal:steel_musketoon",
+    "gunmetal:revolver"
+  ]
+}

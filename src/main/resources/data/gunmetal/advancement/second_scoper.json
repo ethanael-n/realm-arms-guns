@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "id": "gunmetal:brass_rifle"
+    },
+    "title": {
+      "translate": "advancements.gunmetal.second_scoper.title"
+    },
+    "description": {
+      "translate": "advancements.gunmetal.second_scoper.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

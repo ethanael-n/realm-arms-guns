@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "alloyed"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "N  ",
+    "III",
+    "WH "
+  ],
+  "key": {
+    "H": "minecraft:tripwire_hook",
+    "I": "alloyed:steel_ingot",
+    "W": "#minecraft:planks",
+    "N": "gunmetal:steel_ignition"
+  },
+  "result": {
+    "id": "gunmetal:steel_arquebus",
+    "count": 1
+  }
+}

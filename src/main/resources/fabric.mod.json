@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "gunmetal",
+  "version": "${version}",
+  "name": "Gunmetal",
+  "description": "Tiered bows, crossbows and firearms, and the raid illagers that use them (Bombardier, Sharpshooter, Trooper, Artificer, Siege Balloon, Aviator). Formerly Realm Arms and Realm Raids.",
+  "authors": [
+    "you"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.gunmetal.arms.RealmArmsWeapons",
+      "net.gunmetal.raids.RealmRaids"
+    ],
+    "client": [
+      "net.gunmetal.arms.client.RealmArmsClient",
+      "net.gunmetal.raids.client.RealmRaidsClient"
+    ]
+  },
+  "mixins": [
+    "gunmetal-arms.mixins.json",
+    "gunmetal-raids.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*",
+    "ranged_weapon_api": ">=4.0.0"
+  },
+  "breaks": {
+    "realmarms": "*",
+    "realmraids": "*"
+  },
+  "conflicts": {
+    "musketmod": "*"
+  }
+}
